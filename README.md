@@ -2,16 +2,16 @@
  * @Description: 
  * @Author: shadow221213
  * @Date: 2023-10-06 17:14:05
- * @LastEditTime: 2023-10-06 21:27:58
+ * @LastEditTime: 2023-10-06 21:34:03
 -->
 # <div align="center">SerpentAI-based for *'Binding of Isaac: Repentance'*</div>
 
 <div align="center">
-    <a href="https://github.com/shadow221213/Serpent-based-AI-for-Binding-of-Isaac/blob/master/README.md">
+    <a href="https://github.com/shadow221213/SerpentAI-based-for-Binding-of-Isaac/blob/master/README.md">
         English
     </a> 
     | 
-    <a href="https://github.com/shadow221213/Serpent-based-AI-for-Binding-of-Isaac/blob/master/Chinese.md">
+    <a href="https://github.com/shadow221213/SerpentAI-based-for-Binding-of-Isaac/blob/master/Chinese.md">
         简体中文
     </a>
 </div>
