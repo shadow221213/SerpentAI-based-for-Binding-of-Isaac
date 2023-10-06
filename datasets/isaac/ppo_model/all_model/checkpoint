@@ -1,0 +1,6 @@
+model_checkpoint_path: "model"
+all_model_checkpoint_paths: "..\\model_2590\\model"
+all_model_checkpoint_paths: "..\\model_2600\\model"
+all_model_checkpoint_paths: "..\\model_2610\\model"
+all_model_checkpoint_paths: "..\\model_2620\\model"
+all_model_checkpoint_paths: "model"

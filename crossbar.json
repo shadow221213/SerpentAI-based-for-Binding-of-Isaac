@@ -1,0 +1,66 @@
+{
+    "version": 2,
+    "controller": {},
+    "workers": [{
+        "type": "router",
+        "options": {},
+        "realms": [{
+            "name": "serpent",
+            "roles": [{
+                "name": "backend",
+                "permissions": [{
+                    "uri": "*",
+                    "allow": {
+                        "call": true,
+                        "register": true,
+                        "publish": true,
+                        "subscribe": true
+                    },
+                    "disclose": {
+                        "caller": true,
+                        "publisher": true
+                    }
+                }]
+            },
+            {
+                "name": "client",
+                "permissions": [{
+                    "uri": "*",
+                    "allow": {
+                        "call": true,
+                        "register": false,
+                        "publish": false,
+                        "subscribe": true
+                    },
+                    "disclose": {
+                        "caller": true,
+                        "publisher": true
+                    },
+                    "cache": true
+                }]
+            }]
+        }],
+        "transports": [{
+            "type": "websocket",
+            "endpoint": {
+                "type": "tcp",
+                "port": 9999
+            },
+            "auth": {
+                "wampcra": {
+                    "type": "static",
+                    "users": {
+                        "backend": {
+                            "secret": "12345",
+                            "role": "backend"
+                        },
+                        "client": {
+                            "secret": "12345",
+                            "role": "client"
+                        }
+                    }
+                }
+            }
+        }]
+    }]
+}

@@ -1,0 +1,4 @@
+SerpentIsaacGameAgentPlugin:
+  frame_handler: PLAY
+SerpentIsaacGamePlugin:
+  fps: 4
